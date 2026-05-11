@@ -2,7 +2,8 @@ USE DataWarehouseAnalytics;
 
 /* Business problem: How can we increase revenue? */
 
-/* Here I retrieve customer behaviour with a CTE which includes details such as customer name, date of first order, date of last order and total spending. 
+/* Here I retrieve customer behaviour with a CTE which includes details such as customer name, date of first order, 
+date of last order and total spending. 
 I also create a CTE that shows customer behaviour and segments customers into 3 categories (VIP, Regular, New):
 
 	- VIP: Customers  with at least 12 months history whose spending is greater than 5,000
