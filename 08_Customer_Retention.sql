@@ -74,7 +74,8 @@ DISTINCT YEAR(order_date) year, MONTH(order_date) month
 FROM CTE_Customer_data
 WHERE YEAR(order_date) IS NOT NULL)
 
--- This CTE looks at Regular customers. It creates a new column that checks whether their spending is near the VIP threshold (5000), in which case they are 'likely' to become a VIP. Otherwise they are 'unlikely' to become VIP.
+-- This CTE looks at Regular customers. It creates a new column that checks whether their spending is near the VIP threshold (5000), 
+	-- in which case they are 'likely' to become a VIP. Otherwise they are 'unlikely' to become VIP.
 , CTE_reg_likelihood AS (
 SELECT *, 
 CASE WHEN total_spend BETWEEN 4500 AND 5000
