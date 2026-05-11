@@ -116,7 +116,8 @@ FROM (
 	WHERE order_date >= first_order_plus_1year))t
 
 -- Insight: A substantial amount of customers (80%) were lost within 1yr of their first purchase. 
--- Recommendation: Use 15-20% discount for older stock bikes and products on the first few orders with limited time offer to encourage repeat purchases. Focus on customers who have only made 1 order
+-- Recommendation: Use 15-20% discount for older stock bikes and products on the first few orders with limited time offer to encourage repeat purchases. 
+	-- Focus on customers who have only made 1 order
 
 -------------------
 
@@ -154,7 +155,8 @@ FROM CTE_reg_likelihood) * 100, 1) percentage_regs_likely_to_become_VIP
 
 -- Insight: 20% of regular customers are likely to become VIP 
 -- Aim: To upsell Regular customers to VIP
--- Recommendation: Loyalty reward which offers 15-20% discount on an ugraded version of a bike the customer has already purchased. The business could do a family bundle deal for bikes to increase the order value and spending
+-- Recommendation: Loyalty reward which offers 15-20% discount on an ugraded version of a bike the customer has already purchased. 
+	-- The business could do a family bundle deal for bikes to increase the order value and spending
 
 ---------------------------------------------------------------------
 
@@ -163,8 +165,10 @@ FROM CTE_reg_likelihood) * 100, 1) percentage_regs_likely_to_become_VIP
 -- 3. How is VIP sales performing? How do we retain VIP customers?
 ---------------------------------------------------------------------
 ----------------------------------------------------------------------*/
- -- PROBLEM: In 2014, there were no orders made by VIP customers. For the subquery, I first did aggregations to get year, month, total_orders and total sales from CTE_customer_data using GROUP BY. However, SQL excluded 2014 from the results. 
- -- SOLUTION: To get results for all years (2010-2014) I made a CTE table of years and months of the customer orders, and with it I did a LEFT JOIN to the customer data CTE. This way, no year would be excluded from the results
+ -- PROBLEM: In 2014, there were no orders made by VIP customers. For the subquery, I first did aggregations to get year, month, total_orders and 
+	-- total sales from CTE_customer_data using GROUP BY. However, SQL excluded 2014 from the results. 
+ -- SOLUTION: To get results for all years (2010-2014) I made a CTE table of years and months of the customer orders, and with it I did a LEFT JOIN to the customer data CTE. 
+	-- This way, no year would be excluded from the results
 
 -- 5 Month Moving Average
 -- This query retrieves year, month, total orders, total sales, 5 month moving average for total orders and 5 month moving average for total sales
@@ -175,8 +179,8 @@ total_orders,
 -- Orders Moving Average
 AVG(total_orders) OVER(ORDER BY year, month ROWS BETWEEN 2 PRECEDING AND 2 FOLLOWING) moving_avg_orders,
 total_sales,
-AVG(total_sales) OVER(ORDER BY year, month ROWS BETWEEN 2 PRECEDING AND 2 FOLLOWING) moving_avg_sales
 -- Sales Moving Average
+AVG(total_sales) OVER(ORDER BY year, month ROWS BETWEEN 2 PRECEDING AND 2 FOLLOWING) moving_avg_sales
 FROM (
 	SELECT  -- Subquery gets year, month, total_orders, total_sales for VIPs
 	t.year, 
@@ -194,5 +198,8 @@ WHERE year NOT IN (2010, 2014)
 ORDER BY t.year, t.month
 
 -- Aim: Retain VIP customers and keep sales high and steady as they were in 2013 into the new year
--- MICROSOFT EXCEL: Looking a the Year-on-Year VIP performance, sales were good in 2011, dropped in 2012 and increased again in 2013. Sales should be kept at the level it was in 2013. 
--- Recommendations: Looking at the Month-on-Month VIP performance, sales are highest during summer months. To ensure sales are kept this way, I recommend offering premium service including exclusive access to new bikes and fast delivery option
+-- MICROSOFT EXCEL: Looking a the Year-on-Year VIP performance, sales were good in 2011, dropped in 2012 and increased again in 2013.
+-- Sales should be kept at the level it was in 2013. 
+-- Recommendations: Looking at the Month-on-Month VIP performance, sales are highest during summer months. 
+-- To ensure sales are kept this way, I recommend offering premium service including exclusive access to new bikes and fast delivery 
+-- option
