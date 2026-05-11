@@ -106,7 +106,7 @@ SELECT
 	ROW_NUMBER() OVER(PARTITION BY customer_key ORDER BY customer_key) row_n_flag -- filtering out duplicate rows
 	FROM CTE_customer_segments_intermediate
 	)t
-WHERE row_n_flag = 1
+WHERE row_n_flag = 1 -- filtering out duplicate rows
 )
 
 -- Number of customers by segment
