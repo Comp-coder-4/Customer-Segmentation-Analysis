@@ -26,7 +26,8 @@ WITH CTE_customer_behaviour AS (
 	c.last_name,
 	MIN(s.order_date) OVER(PARTITION BY s.customer_key) first_order,
 	MAX(s.order_date) OVER(PARTITION BY s.customer_key) last_order,
-	DATEDIFF(month, MIN(s.order_date) OVER(PARTITION BY s.customer_key), MAX(s.order_date) OVER(PARTITION BY s.customer_key)) order_history_months,
+	DATEDIFF(month, MIN(s.order_date) OVER(PARTITION BY s.customer_key), 
+			MAX(s.order_date) OVER(PARTITION BY s.customer_key)) order_history_months,
 	SUM(s.sales_amount) OVER(PARTITION BY s.customer_key) total_spending
 	FROM gold.fact_sales s
 	LEFT JOIN gold.dim_customers c
@@ -154,7 +155,8 @@ WHERE customer_segment != 'unknown'
 GROUP BY customer_segment)t
 ORDER BY 3 DESC
 
-/* Insight: Although VIP only makes up 9% of customers, VIP customers generated about the same revenue as the New customers (which are the majority)
+/* Insight: Although VIP only makes up 9% of customers, VIP customers generated about the same revenue as the 
+	New customers (which are the majority)
 VIP's are clearly generating more revenue per customer */
 
 /* --------------------------------------------------------------------
