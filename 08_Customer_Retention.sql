@@ -198,7 +198,8 @@ WHERE year NOT IN (2010, 2014)
 ORDER BY t.year, t.month
 
 -- Aim: Retain VIP customers and keep sales high and steady as they were in 2013 into the new year
--- MICROSOFT EXCEL: Looking a the Year-on-Year VIP performance, sales were good in 2011, dropped in 2012 and increased again in 2013.
+-- MICROSOFT EXCEL: See file 08_Customer_Retention_VIP_Performance.xlsx.
+-- Looking a the Year-on-Year VIP performance, sales were good in 2011, dropped in 2012 and increased again in 2013.
 -- Sales should be kept at the level it was in 2013. 
 -- Recommendations: Looking at the Month-on-Month VIP performance, sales are highest during summer months. 
 -- To ensure sales are kept this way, I recommend offering premium service including exclusive access to new bikes and fast delivery 
