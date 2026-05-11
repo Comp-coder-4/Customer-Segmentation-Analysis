@@ -2,7 +2,7 @@ USE DataWarehouseAnalytics;
 
 /* Business Problem: How can we increase revenue? */
 
-/* We've found that VIP customers bring the highest revenue concentration and average order value. 
+/* We've found that VIP customers bring the highest revenue concentration and hightest average order value. 
 Our target is to find where we can make effort to increase customer retention in order to increase revenue.
 
 In this section of SQL, we find out the following:
