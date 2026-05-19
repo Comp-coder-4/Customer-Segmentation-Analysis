@@ -4,11 +4,11 @@ The dataset looks at bike and other bike-related product sales, along with custo
 
 ## Business Problem: How can we increase revenue?
 
-The goal was to identify customer segments and retention strategies to increase revenue.
+The goal was to identify **customer segments** and retention strategies to increase revenue.
 I grouped customers into 3 segments based on their spending behaviour:
-1. VIP: Customers with at least 12 months of history and spending more than 5,000
-2. Regular: Customers with at least 12 months of history but spending 5,000 or less
-3. New: Customers with a lifespan less than 12 months
+1. **VIP**: Customers with at least 12 months of history and spending more than 5,000
+2. **Regular**: Customers with at least 12 months of history but spending 5,000 or less
+3. **New**: Customers with a lifespan less than 12 months
 
 ## Steps:
   1. Exploratory Data Analysis (ED)
