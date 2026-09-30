@@ -51,6 +51,8 @@ A regular customer is *__likely to become VIP__* if they have a lifespan of at l
 ### Recommendation:
 Aim: Give customers near the VIP threshold a loyalty reward that offers 15-20% discount on an upgraded version of a bike that the customer has already purchased. This would encourage the customer to repeat an order with a higher order value, thus increasing revenue.
 
+## Step 3: How do we retain VIP customers?
+
 -----------------------------------
 -----------------------------------
 
