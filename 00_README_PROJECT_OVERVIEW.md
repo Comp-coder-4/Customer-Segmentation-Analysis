@@ -41,12 +41,18 @@ Aim:
 1. Retain VIP customers
 2. Upsell regular customers to VIP
 
-## Step 2: Are regular customers nearly at the VIP threshold?
+## Step 2: Are any customers nearly at the VIP threshold?
 A regular customer is *__likely to become VIP__* if they have a lifespan of at least 12 months and their total spending is between 4500 and 5000 (VIP total spending threshold = 5000)
 
+![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/89185f059df0dd3dc3ed7bbfe62ab89c2b66971d/Screenshot%202026-09-30%20115938.png)
 
+20% of regular customers are likely to become VIP
 
+### Recommendation:
+Aim: Give customers near the VIP threshold a loyalty reward that offers 15-20% discount on an upgraded version of a bike that the customer has already purchased. This would encourage the customer to repeat an order with a higher order value, thus increasing revenue.
 
+-----------------------------------
+-----------------------------------
 
 ## Key Insights & Recommendations
 1. **Insight:** 20% of Regular customers are near the VIP threshold.
