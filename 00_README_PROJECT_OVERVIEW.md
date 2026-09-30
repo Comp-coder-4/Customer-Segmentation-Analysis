@@ -1,6 +1,6 @@
-# Bike Sales Analytics: Customer Segmentation Analysis
+# Customer Segmentation Analysis
 
-The dataset looks at bike and other bike-related product sales, along with customer data and product data.
+The dataset looks sales of bikes and bike-related products, along with customer and product data.
 
 ## Business Problem: How can we increase revenue?
 
