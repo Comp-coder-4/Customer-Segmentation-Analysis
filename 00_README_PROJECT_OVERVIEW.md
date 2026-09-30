@@ -26,6 +26,8 @@ Although VIP make up just 9% of all customers, they contributed only 1.1% less r
 
 This is a good indicator that VIP's are generating more revenue per customer.
 
+This further confirms that VIP's are generating most revenue. It could be useful to create strategic ways to encourage regular customers to become VIP, which we will see in the analysis soon...
+
 ## Key Insights & Recommendations
 1. **Insight:** 20% of Regular customers are near the VIP threshold.
    **Recommendation:** Loyalty reward which offers 15-20% discount on an upgraded version of a bike the customer has already purchased. The business could do a family bundle deal for bikes to increase the order value and spending
