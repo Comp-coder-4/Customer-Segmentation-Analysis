@@ -13,7 +13,7 @@ I grouped customers into 3 segments based on their spending behaviour:
 Tools used: SQL, Excel
 
 ## Workflow
-# Step 1: Which customer segment generated the most revenue?
+## Step 1: Which customer segment generated the most revenue?
 The biggest proportion of customers were New (nearly 80%).
 VIP customers made up only 9% of all customers.
 
