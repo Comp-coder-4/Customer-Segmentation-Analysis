@@ -37,6 +37,7 @@ This further confirms that VIP's are generating most revenue. It could be useful
 ### Moving forward: 
 We've found that VIP customers bring highest revenue concentration and average order value.
 Our target now is to find where we can make effort to increase customer retention and upsell customers in order to increase revenue.
+
 Aim:
 1. Retain VIP customers
 2. Upsell regular customers to VIP
@@ -52,8 +53,15 @@ A regular customer is *__likely to become VIP__* if they have a lifespan of at l
 Aim: Give customers near the VIP threshold a loyalty reward that offers 15-20% discount on an upgraded version of a bike that the customer has already purchased. This would encourage the customer to repeat an order with a higher order value, thus increasing revenue.
 
 ## Step 3: How do we retain VIP customers?
+We'll start off by looking at Year-On-Year sales performance by VIP customers:
 
-Looking at the Month-on-Month performance, sales are highest in summer months. To ensure sales are kept at this level, I recommend offering premium service including exclusive access to new bikes and a fast delivery option for VIP customers just before summer months. This can help boost sales just before and during summer months since this is the time of year people are most likely to purchase a bike.
+![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/bc329795b2ac7d7735cdb0cc19367a4dd9d9ef6c/Screenshot%202026-09-30%20135610.png)
+
+Sales should be kept at the level it was in 2013. Let's look at Month-On-Month sales performance by VIP customers to see how to do this...
+
+![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/bc329795b2ac7d7735cdb0cc19367a4dd9d9ef6c/Screenshot%202026-09-30%20135620.png)
+
+VIP Sales are highest in summer months. To ensure sales are kept at this level in the next year, I recommend offering premium service including exclusive access to new bikes and a fast delivery option for VIP customers in mid/late spring to encourage more customers to make a purchase. This can help boost sales just before and during summer months since this is the time of year people look to purchase bikes.
 
 -----------------------------------
 -----------------------------------
@@ -67,8 +75,11 @@ Looking at the Month-on-Month performance, sales are highest in summer months. T
 ## File Structure
 All files are numbered.
 - Exploratory Data Analysis SQL files are numbered from 01 to 06 and are labelled with 'EDA'. Example: 01_EDA_Database_Exploration.
-- Customer Segmentation Analysis: file numbered 07.
-- Customer Retention Analysis: files numbered 08.
+- Customer Segmentation Analysis:
+  - 07_Customer_Segmentation.sql
+- Customer Retention Analysis:
+  - 08_Customer_Retention.sql
+  - 08_Customer_Retention_VIP_Performance.xlsx
 
 Bonus:
 - There is also a Customer Report and Product Report in sql files numbered 09 and 10
