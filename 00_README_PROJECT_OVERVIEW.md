@@ -9,13 +9,14 @@ I grouped customers into 3 segments based on their spending behaviour:
 1. **VIP**: Customers with at least 12 months of history and spending more than 5,000
 2. **Regular**: Customers with at least 12 months of history but spending 5,000 or less
 3. **New**: Customers with a lifespan less than 12 months
-
-## Steps:
-  1. Exploratory Data Analysis (ED)
-  2. Customer Segmentation Analysis
-  3. Customer Retention Analysis
-     
+   
 Tools used: SQL, Excel
+
+## Workflow
+#Step 1: Which customer segment generated the most revenue?
+The biggest proportion of customers were New (nearly 80%).
+VIP customers made up only 9% of all customers.
+
 
 ## Key Insights & Recommendations
 1. **Insight:** 20% of Regular customers are near the VIP threshold.
@@ -25,9 +26,9 @@ Tools used: SQL, Excel
 
 ## File Structure
 All files are numbered.
-- Exploratory Data Analysis SQL files are numbered from 01 to 06 and are labelled with 'EDA'. For example, 01_EDA_Database_Exploration.
-- Customer Segmentation Analysis is the file numbered 07.
-- Customer Retention Analysis is files numbered 08.
+- Exploratory Data Analysis SQL files are numbered from 01 to 06 and are labelled with 'EDA'. Example: 01_EDA_Database_Exploration.
+- Customer Segmentation Analysis: file numbered 07.
+- Customer Retention Analysis: files numbered 08.
 
 Bonus:
 - There is also a Customer Report and Product Report in sql files numbered 09 and 10
