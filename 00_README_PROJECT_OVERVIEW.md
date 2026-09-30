@@ -13,12 +13,18 @@ I grouped customers into 3 segments based on their spending behaviour:
 Tools used: SQL, Excel
 
 ## Workflow
-#Step 1: Which customer segment generated the most revenue?
+# Step 1: Which customer segment generated the most revenue?
 The biggest proportion of customers were New (nearly 80%).
 VIP customers made up only 9% of all customers.
 
 ![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/6753ca55f85c183d50cf5acc64602bb5b81c0390/Screenshot%202026-09-30%20104523.png)
 
+Then we look at the total revenue and percentage contribution from each customer segment. Things look very interesting...
+Although VIP make up just 9% of all customers, they contributed only 1.1% less revenue than New customers (which make up ~80% of all customers)!
+
+![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/969fe618e937cbe4a14e0a3ae62358df12109fd1/Screenshot%202026-09-30%20110217.png)
+
+This is a good indicator that VIP's are generating more revenue per customer.
 
 ## Key Insights & Recommendations
 1. **Insight:** 20% of Regular customers are near the VIP threshold.
