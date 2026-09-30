@@ -53,6 +53,8 @@ A regular customer is *__likely to become VIP__* if they have a lifespan of at l
 Aim: Give customers near the VIP threshold a loyalty reward that offers 15-20% discount on an upgraded version of a bike that the customer has already purchased. This would encourage the customer to repeat an order with a higher order value, thus increasing revenue.
 
 ## Step 3: How do we retain VIP customers?
+To measure sales performance
+We look at the 5 month 
 We'll start off by looking at Year-On-Year sales performance by VIP customers:
 
 ![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/bc329795b2ac7d7735cdb0cc19367a4dd9d9ef6c/Screenshot%202026-09-30%20135610.png)
@@ -74,12 +76,14 @@ VIP Sales are highest in summer months. To ensure sales are kept at this level i
 
 ## File Structure
 All files are numbered.
-- Exploratory Data Analysis SQL files are numbered from 01 to 06 and are labelled with 'EDA'. Example: 01_EDA_Database_Exploration.
+- Exploratory Data Analysis:
+  - Each file has a number and 'EDA'
+  - Files numbered from 01 to 06. Example: 01_EDA_Database_Exploration
 - Customer Segmentation Analysis:
-  - 07_Customer_Segmentation.sql
+  - **07_Customer_Segmentation.sql**
 - Customer Retention Analysis:
-  - 08_Customer_Retention.sql
-  - 08_Customer_Retention_VIP_Performance.xlsx
+  - **08_Customer_Retention.sql**
+  - **08_Customer_Retention_VIP_Performance.xlsx**
 
 Bonus:
 - There is also a Customer Report and Product Report in sql files numbered 09 and 10
