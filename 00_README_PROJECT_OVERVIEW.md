@@ -1,4 +1,4 @@
-# Customer Segmentation Analysis
+# Customer Segmentation Analysis 🚴
 The dataset looks sales of bikes and bike-related products, along with customer and product data.
 
 ## Business Problem: How can we increase revenue?
@@ -85,7 +85,7 @@ It would be worth offering the same premium service (exclusive access to new bik
    **Recommendation:** Loyalty reward which offers 15-20% discount on an upgraded version of a bike the customer has already purchased. The business could do a family bundle deal for bikes to increase the order value and spending
 2. **Insight:** Looking at the Month-on-Month VIP performance, sales are highest during summer months.
    **Recommendation:** To ensure sales are kept this way, I recommend offering premium service including exclusive access to new bikes and fast delivery option
-
+___________
 Bonus:
 - There is also a Customer Report and Product Report in sql files numbered 09 and 10
 ___________
