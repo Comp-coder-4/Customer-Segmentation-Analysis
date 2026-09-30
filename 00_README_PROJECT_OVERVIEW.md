@@ -53,6 +53,8 @@ Aim: Give customers near the VIP threshold a loyalty reward that offers 15-20% d
 
 ## Step 3: How do we retain VIP customers?
 
+Looking at the Month-on-Month performance, sales are highest in summer months. To ensure sales are kept at this level, I recommend offering premium service including exclusive access to new bikes and a fast delivery option for VIP customers just before summer months. This can help boost sales just before and during summer months since this is the time of year people are most likely to purchase a bike.
+
 -----------------------------------
 -----------------------------------
 
