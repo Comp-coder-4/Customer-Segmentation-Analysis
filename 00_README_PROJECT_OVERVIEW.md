@@ -16,6 +16,7 @@ Tools used: SQL, Excel
 #Step 1: Which customer segment generated the most revenue?
 The biggest proportion of customers were New (nearly 80%).
 VIP customers made up only 9% of all customers.
+![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/6753ca55f85c183d50cf5acc64602bb5b81c0390/Screenshot%202026-09-30%20104523.png)
 
 
 ## Key Insights & Recommendations
