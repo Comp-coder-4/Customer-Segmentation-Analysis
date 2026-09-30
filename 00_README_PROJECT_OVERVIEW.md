@@ -8,7 +8,7 @@ I grouped customers into 3 segments based on their spending behaviour:
 2. **Regular**: Customers with at least 12 months of history but spending 5,000 or less
 3. **New**: Customers with a lifespan less than 12 months
 
-## File Structure
+### File Structure
 - Exploratory Data Analysis:
   - Each file has a number and 'EDA'
   - Files numbered from 01 to 06. Example: 01_EDA_Database_Exploration
