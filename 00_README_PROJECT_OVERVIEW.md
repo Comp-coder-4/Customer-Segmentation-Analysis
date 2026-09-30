@@ -18,9 +18,9 @@ I grouped customers into 3 segments based on their spending behaviour:
   - **08_Customer_Retention.sql**
   - **08_Customer_Retention_VIP_Performance.xlsx**
 
-## Analysis - Workflow
-## Step 1: Which customer segment generated the most revenue?
-### Revenue concentration
+## ANALYSIS - Workflow
+### Step 1: Which customer segment generated the most revenue?
+#### Revenue concentration
 The biggest proportion of customers were new (nearly 80%).
 VIP customers made up only 9% of all customers.
 
@@ -33,14 +33,14 @@ Although VIP make up just 9% of all customers, they contributed only 1.1% less r
 
 This is a good indicator that VIP's are generating more revenue per customer.
 
-### Average Order Value
+#### Average Order Value
 As expected, VIP has highest average order value (AOV). 
 
 ![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/2d785bcf65ccbd14bb9a79d37441c834eb673ff2/Screenshot%202026-09-30%20113444.png)
 
 This further confirms that VIP's are generating most revenue. It could be useful to create strategic ways to encourage regular customers to become VIP, which we will see in the analysis soon...
 
-### Moving forward: 
+#### Moving forward: 
 We've found that VIP customers bring highest revenue concentration and average order value.
 Our target now is to find where we can make effort to increase customer retention and upsell customers in order to increase revenue.
 
@@ -48,17 +48,17 @@ Aim:
 1. Retain VIP customers
 2. Upsell regular customers to VIP
 
-## Step 2: Are any customers nearly at the VIP threshold?
+### Step 2: Are any customers nearly at the VIP threshold?
 A regular customer is *__likely to become VIP__* if they have a lifespan of at least 12 months and their total spending is between 4500 and 5000 (VIP total spending threshold = 5000)
 
 ![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/89185f059df0dd3dc3ed7bbfe62ab89c2b66971d/Screenshot%202026-09-30%20115938.png)
 
 20% of regular customers are likely to become VIP
 
-### Recommendation:
+#### Recommendation:
 Give customers near the VIP threshold a loyalty reward that offers 15-20% discount on an upgraded version of a bike that the customer has already purchased. This would encourage the customer to repeat an order with a higher order value, thus increasing revenue.
 
-## Step 3: How do we retain VIP customers?
+### Step 3: How do we retain VIP customers?
 We'll start off by looking at sales performance by VIP customers:
 
 ![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/e6adeb6df27bf86b3974929d19b146cdb532846c/Screenshot%202026-09-30%20144426.png)
@@ -73,7 +73,7 @@ Sales should be kept at the level it was in 2013. Let's look at Month-On-Month s
 
 VIP Sales are highest in summer months.
 
-### Recommendation
+#### Recommendation
 To ensure sales are kept at this level in the next year, I recommend offering premium service including exclusive access to new bikes and a fast delivery option for VIP customers in late spring to encourage more customers to make a purchase. This can help boost sales just before and during summer months since this is the time of year people look to purchase bikes.
 
 It would be worth offering the same premium service (exclusive access to new bikes) and faster delivery options for VIP customers in months between September and December as well, since sales are high during this time of year.
@@ -84,7 +84,7 @@ It would be worth offering the same premium service (exclusive access to new bik
 1. **Insight:** 20% of Regular customers are near the VIP threshold.
    **Recommendation:** Loyalty reward which offers 15-20% discount on an upgraded version of a bike the customer has already purchased. The business could do a family bundle deal for bikes to increase the order value and spending
 2. **Insight:** Looking at the Month-on-Month VIP performance, sales are highest during summer months.
-   **Recommendation:** To ensure sales are kept this way, I recommend offering premium service including exclusive access to new bikes and fast delivery option
+   **Recommendation:** To ensure sales are stable in next year, I recommend offering premium service including exclusive access to new bikes and fast delivery option, focusing on months just before and during peak sales (May-Aug)
 ___________
 Bonus:
 - There is also a Customer Report and Product Report in sql files numbered 09 and 10
