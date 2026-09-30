@@ -18,7 +18,7 @@ I grouped customers into 3 segments based on their spending behaviour:
   - **08_Customer_Retention.sql**
   - **08_Customer_Retention_VIP_Performance.xlsx**
 
-## Workflow
+## Analysis - Workflow
 ## Step 1: Which customer segment generated the most revenue?
 ### Revenue concentration
 The biggest proportion of customers were new (nearly 80%).
