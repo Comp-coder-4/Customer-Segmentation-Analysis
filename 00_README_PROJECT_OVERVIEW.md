@@ -63,7 +63,7 @@ The 5-month moving average (orange) shows underlying trends clearer.
 
 Sales should be kept at the level it was in 2013. Let's look at Month-On-Month sales performance by VIP customers to see how to do this...
 
-![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/1c7f5cba0940e949055f5bf05719098b01f88f66/Screenshot%202026-09-30%20143524.png)
+![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/5f334c42eccb97d3c373be708dce885e2a6acd92/Screenshot%202026-09-30%20145905.png)
 
 VIP Sales are highest in summer months.
 
