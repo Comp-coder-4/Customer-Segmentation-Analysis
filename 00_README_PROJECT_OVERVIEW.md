@@ -53,15 +53,17 @@ A regular customer is *__likely to become VIP__* if they have a lifespan of at l
 Aim: Give customers near the VIP threshold a loyalty reward that offers 15-20% discount on an upgraded version of a bike that the customer has already purchased. This would encourage the customer to repeat an order with a higher order value, thus increasing revenue.
 
 ## Step 3: How do we retain VIP customers?
-To measure sales performance
-We look at the 5 month 
 We'll start off by looking at Year-On-Year sales performance by VIP customers:
 
-![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/bc329795b2ac7d7735cdb0cc19367a4dd9d9ef6c/Screenshot%202026-09-30%20135610.png)
+![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/e6adeb6df27bf86b3974929d19b146cdb532846c/Screenshot%202026-09-30%20144426.png)
+
+The 5-month moving average (orange) shows underlying trends clearer.
+- In 2013, sales peaked between May and August
+- Both in 2011 and 2013, the sales were higher from Sept and Dec compared to Jan to April
 
 Sales should be kept at the level it was in 2013. Let's look at Month-On-Month sales performance by VIP customers to see how to do this...
 
-![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/bc329795b2ac7d7735cdb0cc19367a4dd9d9ef6c/Screenshot%202026-09-30%20135620.png)
+![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/1c7f5cba0940e949055f5bf05719098b01f88f66/Screenshot%202026-09-30%20143524.png)
 
 VIP Sales are highest in summer months. To ensure sales are kept at this level in the next year, I recommend offering premium service including exclusive access to new bikes and a fast delivery option for VIP customers in mid/late spring to encourage more customers to make a purchase. This can help boost sales just before and during summer months since this is the time of year people look to purchase bikes.
 
