@@ -14,7 +14,8 @@ Tools used: SQL, Excel
 
 ## Workflow
 ## Step 1: Which customer segment generated the most revenue?
-The biggest proportion of customers were New (nearly 80%).
+### Revenue concentration
+The biggest proportion of customers were new (nearly 80%).
 VIP customers made up only 9% of all customers.
 
 ![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/6753ca55f85c183d50cf5acc64602bb5b81c0390/Screenshot%202026-09-30%20104523.png)
@@ -26,7 +27,26 @@ Although VIP make up just 9% of all customers, they contributed only 1.1% less r
 
 This is a good indicator that VIP's are generating more revenue per customer.
 
+### Average Order Value
+As expected, VIP has highest average order value (AOV). 
+
+![img_alt](https://github.com/Comp-coder-4/Customer-Segmentation-Analysis/blob/2d785bcf65ccbd14bb9a79d37441c834eb673ff2/Screenshot%202026-09-30%20113444.png)
+
 This further confirms that VIP's are generating most revenue. It could be useful to create strategic ways to encourage regular customers to become VIP, which we will see in the analysis soon...
+
+### Moving forward: 
+We've found that VIP customers bring highest revenue concentration and average order value.
+Our target now is to find where we can make effort to increase customer retention and upsell customers in order to increase revenue.
+Aim:
+1. Retain VIP customers
+2. Upsell regular customers to VIP
+
+## Step 2: Are regular customers nearly at the VIP threshold?
+A regular customer is *__likely to become VIP__* if they have a lifespan of at least 12 months and their total spending is between 4500 and 5000 (VIP total spending threshold = 5000)
+
+
+
+
 
 ## Key Insights & Recommendations
 1. **Insight:** 20% of Regular customers are near the VIP threshold.
